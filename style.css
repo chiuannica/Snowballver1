@@ -1,0 +1,173 @@
+
+@font-face{
+	font-family: "ConcertOne";
+	src: url(ConcertOne-Regular.ttf);
+}
+body{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: "ConcertOne", Helvetica, sans-serif;
+	font-size: 18pt;
+	color: white;
+	background-color: hotpink;
+	font-style: normal; 
+}
+h1{
+	font-family: "ConcertOne", Helvetica, sans-serif;
+	font-size: 36pt;
+	color: white;
+	font-style: normal;
+	text-align: center;
+}
+h2{
+	font-family: "ConcertOne", Helvetica, sans-serif;
+	font-size: 24pt;
+	color: white;
+	background-color: lightblue;
+	font-style: normal; 
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: hotpink;
+}
+a:active{
+	color: transparent;
+}
+.image{
+	border-radius: 20px;
+	background-color: pink;
+	padding: 20px;
+	text-align: center;
+	font-style: normal;
+	color: hotpink;
+}
+
+.list{
+	border-radius: 20px;
+	background-color: pink;
+	padding: 10px;
+	padding-left: 20px;
+	text-align: left;
+	font-style: normal;
+	color: white;
+	margin-bottom: 20px;
+}
+.text{
+	border-radius: 20px;
+	background-color: pink;
+	padding: 10px;
+	padding-left: 10px;
+	text-align: left;
+	font-style: normal;
+	color: white;
+	margin-bottom: 20px;
+}
+.box-1{
+	border-radius: 20px;
+	width: 25%;
+	float: left;
+	background-color: pink;
+	border: 1px;
+	border-color: hotpink;
+	border-style: solid;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.quote{
+	border-radius: 20px;
+	background-color: pink;
+	text-align: center;
+	font-style: italic;
+	font-size: 20pt;
+	padding: 20px;
+	margin: 20px;
+}
+.header{
+	border-radius: 20px;
+	background-color: pink;
+	border: 2px;
+	border-color: white;
+	border-style: solid;
+	text-align: center;
+	font-style: normal;
+	color: white;
+	font-size: 20pt;
+	align-self: center;
+}
+.instagram-post{
+	border-radius: 20px;
+	position: fixed;
+	background-color: lightblue;
+	border: 2px;
+	border-color: lightblue;
+	border-style: solid;
+	padding: 100px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+#navbar{
+	border-radius: 20px;
+	text-align: center;
+	background-color: lightblue;
+	border: 2px;
+	border-color: lightblue;
+	border-style: solid;
+	margin-bottom: 20px;
+}
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+	padding: 10px;
+}
+#navbar a{
+	font-style: normal;
+	color: white;
+	font-size: 18pt;
+	text-decoration: none;
+}
+.picture-side{
+	float: right;
+	width: 33.3%;
+	border-radius: 20px;
+	border-size: 3px;
+	border-color: lightblue;
+	border-style: solid;
+	background-color: lightblue;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.picture-text{
+	text-align: left;
+	float: left;
+	width: 66.6%;
+	border-radius: 20px;
+	border-size: 3px;
+	border-color: lightblue;
+	border-style: solid;
+	background-color: lightblue;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1em;
+	background-color: lightblue; 
+	grid-auto-rows: minmax(auto);
+	grid-auto-columns: minmax(auto);
+	align-content: center;
+	justify-content: center;
+}
